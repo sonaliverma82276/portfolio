@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+ html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+.navbar{
+  padding: .8rem;
+}
+.navbar-nav li{
+  padding-right: 40px;
+  color: white;
+}
+.nav-link{
+  font-size: 1.1em !important;
+}
+.nav-item a{
+   color: white;
+   text-decoration:none;
+}
+ .nav-item a:hover {
+  color: #EB3C62;
+}
+ .navbar-brand:hover {
+  color: #EB3C62;
+}
+ h1 {
+  font-size: 500%;
+  text-shadow: 1px 1px 15px #000;
+  margin-top: 4rem;
+}
+ h3 {
+  font-size: 150%;
+  font-weight: 300;
+  text-shadow: 1px 1px 10px #000;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.title{
+  font-size: 250%;
+  text-align: center;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+.pa {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 100%;
+}
+.line {
+  width: 65px;
+  height: 5px;
+  background-color: #EB3C62;
+  margin:0 auto;
+}
+.about, .education, .skills, .contact {
+  height: 85%;
+}
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  padding-bottom: 1rem;
+}
+.skills {
+  margin: 0 auto;
+  padding-top: 6rem;
+}
+.skillbar {
+    position:relative;
+    display:block;
+    text-align: center;
+    margin-bottom:15px;
+    width:50%;
+    background:#eee;
+    height:25px;
+    border-radius:3px;
+    transition:0.4s linear;
+    margin-top: 20px;
+}
+.skillbar-title {
+    position:absolute;
+    top:0;
+    left:0;
+    font-weight:bold;
+    font-size:13px;
+    color:white;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+    display:block;
+    background:rgba(0, 0, 0, 0.1);
+    padding:0 20px;
+    height:25px;
+    line-height:25px;
+    width: 125px;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+height: 25px;
+width:125px;
+background:#EB3C62;
+border-radius:3px;
+float: left;
+}
+.skill-bar-percent {
+  font-size: 15px;
+}
+.contact {
+  background-color: #222;
+  color: white;
+}
+.social a {
+  font-size: 4.5rem;
+  padding: 3rem;
+  color: white;
+}
+.social a:hover {
+  color:#d5d5d5;
+}
+.s_top {
+   bottom: 0;
+   margin-top: 4rem;
+}
+.s_top a{
+font-size: 2rem;
+  padding: 3rem;
+  color: white;
+}
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+  bottom: 0;
+  height: 40%;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+#fixed {
+  background-image: url('./img/cover_img.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+
+
+/* media queries */
+@media (max-width: 992px) {
+  .social a {
+    font-size:  4rem;
+    padding: 2rem;
+  }
+   .skills {
+  padding-top: 3rem;
+}
+.skillbar {
+    margin-bottom:7px;
+    width:50%;
+    height:23px;
+    margin-top: 12px;
+    margin-left: 20%;
+}
+.skillbar-title {
+    font-size:10px;
+}
+
+.skillbar-title span {
+    padding:0 10px;
+    height:23px;
+    line-height:18px;
+    width: 100px;
+}
+
+.skillbar-bar {
+height: 23px;
+width:110px;
+}
+.skill-bar-percent {
+  font-size: 10px;
+}
+  }
+@media (max-width: 768px) {
+  .social a {
+    font-size:  2.5rem;
+    padding: 1.2rem;
+  }
+  .s_top a {
+    font-size:  2.5rem;
+    padding: 1rem;
+  }
+  .display-4 {
+    font-size: 200%;
+  }
+  h1 {
+    font-size: 275%;
+    margin-bottom: 2rem;
+  }
+   h3 {
+    font-size: 100%;
+    font-weight: 160;
+  }
+  .title {
+    font-size: 125%;
+  }
+  .line {
+    width: 30px;
+    height: 5px;
+  }
+   .skills {
+  padding-top: 3rem;
+}
+.skillbar {
+    margin-bottom:7px;
+    width:50%;
+    height:21px;
+    margin-top: 15px;
+
+    margin-left: 20%;
+}
+.skillbar-title {
+    font-size:10px;
+}
+
+.skillbar-title span {
+    padding:0 15px;
+    height:21px;
+    line-height:21px;
+    width: 100px;
+}
+
+.skillbar-bar {
+height: 21px;
+width:100px;
+}
+.skill-bar-percent {
+  font-size: 10px;
+}
+  
+}
+@media (max-width: 576px) {
+  
+  .display-4 {
+    font-size: 160%;
+  }
+  .social a {
+    font-size:  2rem;
+    padding: 0.7rem;
+  }
+  .s_top a {
+    font-size:  2rem;
+    padding: 0.3rem;
+  }
+  h1 {
+    font-size: 200%;
+    margin-bottom: 0.5rem;
+  }
+  h3 {
+    font-size: 75%;
+  }
+  .title {
+    font-size: 200%;
+  }
+  .line {
+    width: 30px;
+    height: 5px;
+  }
+  .pa {
+    font-size: 100%;
+  }
+  .education h4  {
+    font-size: 100%;
+  }
+   .education p  {
+    font-size: 75%;
+  }
+  .skills {
+  padding-top: 3rem;
+}
+.skillbar {
+    margin-bottom:7px;
+    width:50%;
+    height:18px;
+    margin-top: 10px;
+    margin-left: 20%;
+}
+.skillbar-title {
+    font-size:10px;
+}
+
+.skillbar-title span {
+    padding:0 10px;
+    height:18px;
+    line-height:18px;
+    width: 85px;
+}
+
+.skillbar-bar {
+height: 18px;
+width:85px;
+}
+.skill-bar-percent {
+  font-size: 10px;
+}
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
