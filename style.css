@@ -307,7 +307,7 @@ width:100px;
 }
 .skillbar {
     margin-bottom:7px;
-    width:50%;
+    width:70%;
     height:18px;
     margin-top: 10px;
     margin-left: 20%;
@@ -328,7 +328,7 @@ height: 18px;
 width:100px;
 }
 .skill-bar-percent {
-  font-size: 10px;
+  font-size: 9px;
 }
 }
 /*--- Bootstrap Padding Fix --*/
